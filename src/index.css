@@ -1,0 +1,33 @@
+body {
+  margin: 10px;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 2.5em;
+  line-height: 1;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+.center{
+  text-align: center;
+}
+thead{
+  background-color: rgb(85, 70, 70);
+  color: white;
+}
+td, tr {
+  font-size: 18px;
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
